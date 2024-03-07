@@ -1,0 +1,185 @@
+.hero-image{
+    background-image: url(../images/cottage1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#bg{
+    background: rgb(249,99,139);
+    background: linear-gradient(228deg, rgba(249,99,139,1) 5%, rgba(73,155,212,1) 19%, rgba(231,70,70,1) 30%, rgba(81,219,251,1) 50%, rgba(231,70,70,1) 65%, rgba(73,155,212,1) 79%, rgba(249,99,139,1) 95%);
+}
+
+nav{
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 2em 0em 2em;
+    transition: all 1s ease-out;
+    border: 2px rgba(73,155,212,1) solid;
+    background-color: rgba(73,155,212,1);
+}
+nav a:hover {
+    background-color: aqua;
+    color: #000000;
+    transition: 0.10s;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    border: 2px #499bd4 solid;
+    padding: 20px 0 20px 0;
+}
+
+.gradient-text{
+    background: rgb(249,99,139);
+    background: linear-gradient(90deg, rgba(249,99,139,1) 5%, rgba(73,155,212,1) 19%, rgba(231,70,70,1) 30%, rgba(81,219,251,1) 50%, rgba(231,70,70,1) 65%, rgba(73,155,212,1) 79%, rgba(249,99,139,1) 95%);
+}
+
+
+.intro p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rates h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rates img{
+    position: center;
+    width: 300px;
+    height: 500px;
+    padding-left: 525px;
+    padding-bottom: 50px;
+}
+
+.pic-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.image{
+    max-width: 100%;
+    max-height:100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.text{
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image2{
+    max-width: 100%;
+    max-height:100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.text2{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image3{
+    max-width: 100%;
+    max-height:100%;
+    float: right;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.text3{
+    font-size: 20px;
+    float: left;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+
+.article-image{
+    margin: 0;
+    padding: 0;
+}
+
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-card{
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+}
+
+.article-content{
+    padding: 2rem;
+}
+
+.article-content .card-category{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.article-content .card-title{
+    margin: 1rem 0;
+    color: #22447b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    text-align: center;
+}
