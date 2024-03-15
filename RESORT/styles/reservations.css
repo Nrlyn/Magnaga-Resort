@@ -1,0 +1,140 @@
+.hero-image{
+    background-image: url(../images/reservation.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border: 3px white solid;
+}
+
+#bg{
+    background: rgb(34,193,195);
+    background: linear-gradient(118deg, rgba(34,193,195,1) 0%, rgba(143,190,108,1) 49%, rgba(34,193,195,1) 97%);
+    background-attachment: fixed;
+}
+nav{
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 2em 0em 2em;
+    transition: all 1s ease-out;
+    color: black;
+}
+nav a:hover {
+    color: green;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+}
+
+header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    border: 3px white solid;
+    padding: 20px 0 20px 0;
+}
+
+.gradient-text{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 4%, rgba(99,159,101,1) 22%, rgba(72,144,135,1) 25%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 57%, rgba(72,144,135,1) 71%, rgba(99,159,101,1) 74%, rgba(252,252,252,1) 94%);
+}
+
+.intro p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rates{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rates-content{
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.rates-content h1{
+    text-align: center;
+    border: 3px white solid;
+    font-size: 30px;
+}
+
+.rates-content h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.rates img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.pic-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+form label{
+    padding-right: 10px;
+}
+
+.input-field{
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(72,144,135,1);
+    color: black;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.res-frm{
+    box-shadow: 5px 6px 5px 0 rgba(0,0,0,0,34);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: rgb(34,193,195);
+    background: linear-gradient(118deg, rgba(34,193,195,1) 0%, rgba(143,190,108,1) 49%, rgba(34,193,195,1) 97%);;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 3px white solid;
+    box-shadow: 0 40px 40px 50px rgba(0, 0, 0, 0.2)
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
